@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/play_before"
+        android:src="@drawable/preview"
+    android:layout_weight="1"
+    android:layout_width="0dp"
+    android:scaleType="fitCenter"
+    android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/play_pause_start"
+        android:layout_weight="1"
+        android:src="@drawable/play_start_or_pause"
+        android:layout_width="0dp"
+        android:scaleType="fitCenter"
+        android:layout_height="match_parent" />
+
+    <ImageView
+
+        android:id="@+id/play_next"
+        android:src="@drawable/next"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:scaleType="fitCenter"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
